@@ -1,0 +1,22 @@
+{
+    "name": "example/esi-example",
+    "description": "example/esi-example",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Example\\EsiExample",
+        "label": {
+            "de-DE": "Skeleton plugin for esi calls",
+            "en-GB": "Skeleton plugin for esi calls"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}
